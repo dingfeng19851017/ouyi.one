@@ -1,0 +1,118 @@
+/* ===== 基础全局设置 ===== */
+html {
+  margin-top: 0;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  color: #e5e7eb;
+  background-color: #0a0a0a;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ===== 动态背景粒子效果 ===== */
+body::before {
+  content: "";
+  position: fixed;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.15), transparent 60%),
+    radial-gradient(circle at 70% 70%, rgba(0, 230, 255, 0.12), transparent 50%);
+  filter: blur(120px);
+  z-index: 0;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+  background-size: 25px 25px;
+  z-index: 0;
+}
+
+/* ===== 链接样式 ===== */
+a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #00cfff;
+  text-decoration: underline;
+}
+
+/* ===== 深色主题统一调整（减少 !important）===== */
+.bg-white,
+.bg-gray-100 {
+  background-color: #1f2937;
+}
+
+.text-gray-600,
+.text-gray-700 {
+  color: #d1d5db;
+}
+
+.text-gray-500 {
+  color: #9ca3af;
+}
+
+.text-black {
+  color: #ffffff;
+}
+
+/* ===== 页脚统一风格 ===== */
+footer,
+.footer {
+  background-color: #111827;
+  color: #d1d5db;
+}
+
+.footer a {
+  color: #00aaff;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #00cfff;
+}
+
+/* ===== 下拉菜单样式 ===== */
+#dropdown-menu {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 6rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 50;
+}
+
+#dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #374151;
+}
+
+#dropdown-menu a:hover {
+  background-color: #f3f4f6;
+  color: #0088cc;
+}
