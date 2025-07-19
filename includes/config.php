@@ -3,7 +3,7 @@
 $protocol = "https://";
 
 // 自动获取当前主机名，带容错处理（防止 CLI 或爬虫访问时为空）
-$host = $_SERVER['HTTP_HOST'] ?? 'www.ouyi.one';
+$host = $_SERVER['HTTP_HOST'] ?? 'okx.koyeb.app';
 
 // 获取请求的 URI
 $request_uri = $_SERVER['REQUEST_URI'] ?? '/';
