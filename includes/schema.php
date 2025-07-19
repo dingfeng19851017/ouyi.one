@@ -2,7 +2,7 @@
 // 统一定义域名，带 https，带主机名
 if (!isset($domain)) {
     $protocol = 'https://';
-    $host = $_SERVER['HTTP_HOST'] ?? 'www.ouyi.one';
+    $host = $_SERVER['HTTP_HOST'] ?? 'okx.koyeb.app';
     $domain = $protocol . $host;
 }
 
