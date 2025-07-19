@@ -29,6 +29,7 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="<?= htmlspecialchars($domain) ?>/css/app.css" />
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/schema.php'; ?>
+  <meta name="msvalidate.01" content="6A24D72AE91F979B9813F83F30EEE535" />
 </head>
 
 <body class="min-h-screen"  >
