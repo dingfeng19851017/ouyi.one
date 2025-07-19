@@ -1,8 +1,8 @@
 <?php
 // IndexNow 配置
-$host = "www.ouyi.one";
+$host = "okx.koyeb.app";
 $key = "b556315d51654bab91de0bcf8a43b2c0";
-$keyLocation = "https://www.ouyi.one/b556315d51654bab91de0bcf8a43b2c0.txt";
+$keyLocation = "https://okx.koyeb.app/b556315d51654bab91de0bcf8a43b2c0.txt";
 
 // 站点首页 URL
 $siteUrl = "https://$host/";
