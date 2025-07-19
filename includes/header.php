@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="<?= htmlspecialchars($domain) ?>/css/app.css" />
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/schema.php'; ?>
   <meta name="msvalidate.01" content="6A24D72AE91F979B9813F83F30EEE535" />
+<meta name="google-site-verification" content="X74fYQuNrlYNGieLN3FhDtO8_oaDsa067yyW1OsV2qQ" />
 </head>
 
 <body class="min-h-screen"  >
