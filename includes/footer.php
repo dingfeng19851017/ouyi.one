@@ -20,10 +20,10 @@
       <a href="/ios/"  title="欧易App苹果版下载入口" class="px-5 py-2 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition">
         苹果下载
       </a>
-      <a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253"  title="欧易App苹果版下载入口" target="_blank" class="px-5 py-2 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition">
+      <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253"  title="欧易App苹果版下载入口" target="_blank" class="px-5 py-2 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition">
         国内入口
       </a>
-      <a href="https://www.ouxyi.co/ul/Q7tTR4?channelId=ACE529253
+      <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253
 "  title="欧易App苹果版下载入口" target="_blank" class="px-5 py-2 rounded-full bg-white text-black font-medium hover:bg-gray-100 transition">
         全球入口
       </a>
@@ -59,9 +59,9 @@
             <div>
                 <h4 class="font-bold text-lg mb-4">注册入口</h4>
                 <ul class="space-y-2">
-                    <li><a href="https://www.ouxyi.co/ul/Q7tTR4?channelId=ACE529253" title="欧易国内注册入口">欧易国内入口</a></li>
+                    <li><a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易国内注册入口">欧易国内入口</a></li>
                     <li><a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253" title="欧易国际注册入口">欧易国际入口</a></li>
-                    <li><a href="https://www.ouxyi.io/ul/Q7tTR4?channelId=ACE529253" title="欧易中文官网注册入口">欧易中文入口</a></li>
+                    <li><a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易中文官网注册入口">欧易中文入口</a></li>
                 </ul>
             </div>
             <div>
