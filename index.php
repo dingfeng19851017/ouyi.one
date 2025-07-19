@@ -32,11 +32,11 @@ include "includes/header.php";
             <a href="/windows/" title="欧意电脑版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
                 Windows<br />电脑版
             </a>
-            <a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+            <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
                 大陆用户<br />专属入口
             </a>
             
-            <a href="https://www.ouxyi.co/ul/Q7tTR4?channelId=ACE529253" title="欧易官方网站注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-yellow-400 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-500 hover:to-orange-500 hover:scale-105 transition-transform shadow-md">
+            <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易官方网站注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-yellow-400 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-500 hover:to-orange-500 hover:scale-105 transition-transform shadow-md">
                 欧易国际<br />全球入口
             </a>
         </section>
