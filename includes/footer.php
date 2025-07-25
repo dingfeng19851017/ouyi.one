@@ -74,7 +74,7 @@
             </div>
         </div>
         <p class="mt-8 text-center text-gray-500">
-            &copy; 2025 <a href="<?= htmlspecialchars($domain) ?>" title="欧易官方下载入口" class="hover:underline">OuYi.one</a>
+            &copy; 2025 <a href="<?= htmlspecialchars($domain) ?>" title="欧易官方下载入口" class="hover:underline">欧易 OKX App 下载中心</a>
             <br />
             <small>本站非欧易官方网站，仅提供欧易App下载服务，所有链接为官方提供。</small>
         </p>
