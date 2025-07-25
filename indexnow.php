@@ -4,7 +4,7 @@
 // 配置
 $key = '71653317ec834123bf9ed9adabb4c93c';
 $host = $_SERVER['HTTP_HOST'];
-$sitemapUrl = "https://$host/sitemap.xml";
+$sitemapUrl = "https://$host/sitemap.php";
 
 // 解析 sitemap.xml，返回所有链接数组
 function parseSitemap(string $url): array {
