@@ -94,7 +94,7 @@ include "../includes/header.php";
 <h3 id="download" class="text-2xl font-bold text-green-400">📥 欧易安卓App下载链接合集</h3>
   <p>如果主下载链接不可用，请使用以下备用链接：</p>
   <ul class="list-disc list-inside">
-    <li>主下载链接：<a class="text-green-400 hover:underline font-semibold" href="https://www.ouyi.one/android" target="_blank">点击立即下载</a></li>
+    <li>主下载链接：<a class="text-green-400 hover:underline font-semibold" href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" target="_blank">点击立即下载</a></li>
     <li>备用下载①：<a class="text-green-400 hover:underline" href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" target="_blank">备用地址①</a></li>
     <li>备用下载②：<a class="text-green-400 hover:underline" href="https://sgp1.vultrobjects.com:443/appdown/okx/okx-android_ACE529253.apk" target="_blank">备用地址②</a></li>
     <li>备用下载③：<a class="text-green-400 hover:underline" href="https://apk.bwljgy.com/upgradeapp/okx-android_ACE529253.apk" target="_blank">备用地址③</a></li>
