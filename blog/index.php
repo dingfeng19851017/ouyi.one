@@ -27,10 +27,10 @@ include "../includes/header.php";
   <h2 class="text-2xl font-bold text-green-400">📱 欧易App安卓版本下载</h2>
   <p>大家可通过此处列出的下载链接直接下载到手机进行安装，所有链接来自欧易 OKX 官方提供，敬请放心安全下载：</p>
 <div class="flex flex-col sm:flex-row justify-center items-center gap-4 my-8">
-  <a href="https://www.ouyi.one/android" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
+  <a href="/android/" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
     ⚡ 立即下载欧易安卓版本
   </a>
-  <a href="https://www.ouyi.one/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
+  <a href="/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
     🍎 查看苹果 iOS 下载指南
   </a>
 </div>
@@ -58,27 +58,27 @@ include "../includes/header.php";
 
 <h3 id="rongyao" class="text-2xl font-semibold text-yellow-300">📱 华为荣耀（安卓系统）</h3>
   <p><strong>点允许继续安装，不要移入管控，按照提示步骤完成安装。</strong></p>
-  <img src="https://www.ouyi.one/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="华为安卓版教程图1" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
-  <img src="https://www.ouyi.one/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(2).png" alt="华为安卓版教程图2" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="华为安卓版教程图1" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(2).png" alt="华为安卓版教程图2" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
 
 <h3 id="huawei" class="text-2xl font-semibold text-yellow-300">📱 华为手机（鸿蒙系统）</h3>
   <p><strong>退出 <span class="text-red-400">纯净模式并关闭外部来源应用检查：</span></strong></p>
   <ol class="list-decimal list-inside">
     <li>【设置】→【系统和更新】→【纯净模式】，关闭【增强防护】</li>
   </ol>
-  <img src="https://www.ouyi.one/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(3).png" alt="关闭纯净模式截图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(3).png" alt="关闭纯净模式截图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
   <ol start="2" class="list-decimal list-inside">
     <li>【设置】→【安全】→【更多安全设置】→关闭【外部来源应用检查】</li>
   </ol>
-  <img src="https://www.ouyi.one/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(4).png" alt="关闭检查设置图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%20(4).png" alt="关闭检查设置图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
 
 <h3 id="xiaomi" class="text-2xl font-semibold text-yellow-300">📱 小米手机</h3>
   <p>安装页面右上角 → 设置 → 启用「安全守护」后返回继续安装。</p>
-  <img src="https://www.ouyi.one/blog/img/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="小米手机安装图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="小米手机安装图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
 
 <h3 id="oppo" class="text-2xl font-semibold text-yellow-300">📱 OPPO 手机</h3>
   <p>设置 → 手机管家（系统自带）→【支付保护】→关闭所有保护，安装完成后再重新开启。</p>
-  <img src="https://www.ouyi.one/blog/img/OPPO%E6%89%8B%E6%9C%BA%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="OPPO手机安装图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
+  <img src="/blog/img/OPPO%E6%89%8B%E6%9C%BA%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App.png" alt="OPPO手机安装图" class="rounded-lg shadow-md mx-auto max-w-full sm:max-w-xl hover:scale-105 transition-transform">
 
 <h3 id="network" class="text-2xl font-semibold text-yellow-300">📡 电信网络限制</h3>
   <p>电信网络用户建议打开「飞行模式」，然后开启 WiFi 下载欧易 App。</p>
