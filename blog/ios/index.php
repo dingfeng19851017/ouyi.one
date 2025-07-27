@@ -20,10 +20,10 @@ include "../../includes/header.php";
     <p class="mt-2 text-sm text-green-100">来自欧易官方服务器，推荐优先使用</p>
   </div>
   <div class="flex flex-col sm:flex-row justify-center items-center gap-4 my-8">
-  <a href="https://www.ouyi.one/android" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
+  <a href="/android/" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
     ⚡ 立即下载欧易安卓版本
   </a>
-  <a href="https://www.ouyi.one/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
+  <a href="/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
     🍎 查看苹果 iOS 下载指南
   </a>
 </div>
@@ -44,7 +44,7 @@ include "../../includes/header.php";
       <li>点击“国家/地区”并更改为其他国家</li>
       <li>同意条款 → 填写有效地址和付款信息</li>
     </ol>
-    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="https://www.ouyi.one/blog/img/%E8%8B%B9%E6%9E%9C%E7%89%88%E6%AC%A7%E6%84%8Fapp%E4%B8%8B%E8%BD%BD.png" alt="修改 Apple ID 国家示意图">
+    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="/blog/img/%E8%8B%B9%E6%9E%9C%E7%89%88%E6%AC%A7%E6%84%8Fapp%E4%B8%8B%E8%BD%BD.png" alt="修改 Apple ID 国家示意图">
 
     <h3 id="haiwaiid" class="text-xl font-semibold text-white">② 注册海外 Apple ID</h3>
     <p>如无法修改原 ID，可创建海外 Apple ID：</p>
@@ -53,11 +53,11 @@ include "../../includes/header.php";
       <li>选择国家/地区并填写信息</li>
       <li>绑定邮箱和手机号，验证完成后即注册成功</li>
     </ul>
-    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="https://www.ouyi.one/blog/img/%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%E6%95%99%E7%A8%8B%20(1).png" alt="注册 Apple ID 步骤图">
+    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="/blog/img/%E8%8B%B9%E6%9E%9C%E5%AE%89%E8%A3%85%E6%AC%A7%E6%98%93App%E6%95%99%E7%A8%8B%20(1).png" alt="注册 Apple ID 步骤图">
 
     <h2 id="okxdownload" class="text-2xl font-bold text-green-400">📲 App Store 搜索下载 OKX</h2>
     <p>登录非中国区的 App Store，搜索“OKX”，认准开发者“OKX MALTA LTD”后点击获取进行下载。</p>
-    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="https://www.ouyi.one/blog/img/%E6%AC%A7%E6%84%8F%E8%8B%B9%E6%9E%9CiOS%E7%89%88%E4%B8%8B%E8%BD%BD.png" alt="App Store 搜索 OKX">
+    <img class="mx-auto block rounded shadow-md max-w-full sm:max-w-xl hover:scale-105 transition-transform" src="/blog/img/%E6%AC%A7%E6%84%8F%E8%8B%B9%E6%9E%9CiOS%E7%89%88%E4%B8%8B%E8%BD%BD.png" alt="App Store 搜索 OKX">
 
     <h2 id="android" class="text-2xl font-bold text-yellow-300">📥 安卓备用下载链接推荐</h2>
     <ul class="list-disc list-inside text-gray-300">
