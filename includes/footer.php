@@ -4,7 +4,7 @@
     <!-- 左侧 图标 + 文本 -->
     <div class="flex items-center space-x-4">
          <a href="/" title="欧易下载平台" class="flex items-center space-x-2 hover:opacity-80 transition">
-      <img src="../favicon.ico" alt="欧易 App" class="w-12 h-12 rounded-md" />
+      <img src="<?= htmlspecialchars($domain) ?>/favicon.ico" alt="欧易 App" class="w-12 h-12 rounded-md" />
        </a>
       <div>
         <h3 class="text-white text-lg font-semibold">欧易 App</h3>
