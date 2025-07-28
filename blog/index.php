@@ -38,9 +38,9 @@ include "../includes/header.php";
 
   <h3 class="text-xl font-semibold text-white mt-6">✅备用下载地址</h3>
   <ul class="list-disc list-inside text-gray-300">
-    <li><strong>安卓版下载备用①</strong>：✅<a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
+    <li><strong>安卓版下载备用①</strong>：✅<a href="https://download.ouyi.win/okx-android_ACE529253.apk" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
     <li><strong>安卓版下载备用②</strong>：✅<a href="https://sgp1.vultrobjects.com:443/appdown/okx/okx-android_ACE529253.apk" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
-    <li><strong>安卓版下载备用③</strong>：✅<a href="https://apk.bwljgy.com/upgradeapp/okx-android_ACE529253.apk" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
+    <li><strong>安卓版下载备用③</strong>：✅<a href="https://www.oyicn.co/ul/aU962x?channelId=ACE529253" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
   </ul>
 <p class="font-semibold text-yellow-300">
   ⚠️️ 注意 ⚠️：如果遇到下载链接打不开，可以更换浏览器或切换网络再试。欧易官方会不定时更新下载链接以保障用户使用安全。
@@ -48,10 +48,9 @@ include "../includes/header.php";
 <h2 id="ouyirukou" class="text-2xl font-bold text-green-400">💻 欧易官方注册入口</h2>
 <p class="text-gray-300">如您不方便使用手机，也可以通过以下任意官方网页版地址进行注册，全部均为欧易官方入口，立即注册既有机会赢取高达 100 USDT 盲盒，欧易对用户资产持有 1:1 储备，新用户专享前3天赚取最高30%的年收益率</p>
 <ul class="list-disc list-inside text-gray-300 space-y-1">
-  <li><a href="https://www.ouxyi.io/ul/Q7tTR4?channelId=ACE529253" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
+  <li><a href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
   <li><a href="https://www.ouxyi.link/ul/Q7tTR4?channelId=ACE529253" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
-  <li><a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
-  <li><a href="https://www.ouxyi.co/ul/Q7tTR4?channelId=ACE529253" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
+ 
 </ul>
   <h2 class="text-2xl font-bold ">❓安安卓手机下载后 <span class="text-red-400">无法安装</span> 怎么办？</h2>
   <p>部分国产安卓手机在下载欧易 App 后可能会出现 “安全风险” 或 “可疑软件” 的提示，导致无法正常安装，多见于华为、小米、荣耀等设备。可参考下列方法完成安装：</p>
@@ -94,10 +93,10 @@ include "../includes/header.php";
 <h3 id="download" class="text-2xl font-bold text-green-400">📥 欧易安卓App下载链接合集</h3>
   <p>如果主下载链接不可用，请使用以下备用链接：</p>
   <ul class="list-disc list-inside">
-    <li>主下载链接：<a class="text-green-400 hover:underline font-semibold" href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" target="_blank">点击立即下载</a></li>
-    <li>备用下载①：<a class="text-green-400 hover:underline" href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" target="_blank">备用地址①</a></li>
+    <li>主下载链接：<a class="text-green-400 hover:underline font-semibold" href="https://download.ouyi.win/okx-android_ACE529253.apk" target="_blank">点击立即下载</a></li>
+ 
     <li>备用下载②：<a class="text-green-400 hover:underline" href="https://sgp1.vultrobjects.com:443/appdown/okx/okx-android_ACE529253.apk" target="_blank">备用地址②</a></li>
-    <li>备用下载③：<a class="text-green-400 hover:underline" href="https://apk.bwljgy.com/upgradeapp/okx-android_ACE529253.apk" target="_blank">备用地址③</a></li>
+    <li>备用下载③：<a class="text-green-400 hover:underline" href="https://www.oyicn.co/ul/aU962x?channelId=ACE529253" target="_blank">备用地址③</a></li>
   </ul>
 
   <p class="mt-4"><strong>提示：</strong>若链接打不开，请尝试更换浏览器、切换网络，或使用夸克浏览器打开。</p>
