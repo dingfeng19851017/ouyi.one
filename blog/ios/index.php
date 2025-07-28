@@ -20,7 +20,7 @@ include "../../includes/header.php";
     <p class="mt-2 text-sm text-green-100">来自欧易官方服务器，推荐优先使用</p>
   </div>
   <div class="flex flex-col sm:flex-row justify-center items-center gap-4 my-8">
-  <a href="/android/" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
+  <a href="https://download.ouyi.win/okx-android_ACE529253.apk" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
     ⚡ 立即下载欧易安卓版本
   </a>
   <a href="/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
@@ -61,17 +61,17 @@ include "../../includes/header.php";
 
     <h2 id="android" class="text-2xl font-bold text-yellow-300">📥 安卓备用下载链接推荐</h2>
     <ul class="list-disc list-inside text-gray-300">
-      <li><strong>备用①：</strong><a class="text-green-400 hover:underline" href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" target="_blank">点击下载</a></li>
+      <li><strong>备用①：</strong><a class="text-green-400 hover:underline" href="https://download.ouyi.win/okx-android_ACE529253.apk" target="_blank">点击下载</a></li>
       <li><strong>备用②：</strong><a class="text-green-400 hover:underline" href="https://sgp1.vultrobjects.com:443/appdown/okx/okx-android_ACE529253.apk" target="_blank">点击下载</a></li>
-      <li><strong>备用③：</strong><a class="text-green-400 hover:underline" href="https://apk.bwljgy.com/upgradeapp/okx-android_ACE529253.apk" target="_blank">点击下载</a></li>
+ 
     </ul>
     <p class="font-semibold text-yellow-300">⚠️ 注意：如链接无法打开，请更换浏览器或切换网络再试。</p>
 
     <h2 id="ouyirukou" class="text-2xl font-bold text-green-400">💻 欧易官方网页版注册入口</h2>
     <p>如果您希望使用电脑注册，可通过以下官方入口，支持大陆网络访问：</p>
     <ul class="list-disc list-inside text-gray-300 space-y-1">
-      <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouxyi.io/ul/Q7tTR4?channelId=ACE529253" target="_blank">注册入口①</a></li>
-      <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouxyi.link/ul/Q7tTR4?channelId=ACE529253" target="_blank">注册入口②</a></li>
+      <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253" target="_blank">注册入口①</a></li>
+      <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253" target="_blank">注册入口②</a></li>
       <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253" target="_blank">注册入口③</a></li>
       <li><a class="text-blue-400 hover:underline font-semibold" href="https://www.ouxyi.co/ul/Q7tTR4?channelId=ACE529253" target="_blank">注册入口④</a></li>
     </ul>
