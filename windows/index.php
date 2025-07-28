@@ -25,20 +25,20 @@ include "../includes/header.php";
 
 <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
 
-<a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk"  title="欧易App安卓版下载入口"
+<a href="https://download.ouyi.win/okx-android_ACE529253.apk"  title="欧易App安卓版下载入口"
    class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-600 to-purple-700 hover:from-pink-500 hover:to-purple-600 hover:scale-105 transition-transform shadow-lg">
      立即下载<br/>Android·安卓版
 </a>
-
+<a href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253"  title="欧易中国注册入口"
+   class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-700 via-red-600 to-pink-600 hover:from-pink-600 hover:to-red-500 hover:scale-105 transition-transform shadow-lg">
+    立即注册 <br/> 大陆用户专属入口
+</a>
 <a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253"  title="欧易电脑版下载入口"
    class="w-full sm:w-auto min-w-[200px] min-h-[60px] px-12 py-5 text-white text-2xl font-extrabold rounded-2xl border-2 border-green-500 bg-gradient-to-r from-green-500 via-lime-400 to-emerald-600 hover:from-green-400 hover:to-emerald-500 hover:scale-110 transition-all shadow-2xl shadow-lime-400/40 animate-pulse">
     Win🔥Mac<br/>先注册再下载
 </a>
 
-<a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253"  title="欧易中国注册入口"
-   class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-700 via-red-600 to-pink-600 hover:from-pink-600 hover:to-red-500 hover:scale-105 transition-transform shadow-lg">
-    立即注册 <br/> 大陆用户专属入口
-</a>
+ 
 </section>
  
  
