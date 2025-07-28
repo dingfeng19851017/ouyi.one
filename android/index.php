@@ -23,17 +23,18 @@ include __DIR__ . '/../includes/header.php';
   </video>
 </section>
 <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-<a href="/ios/" title="欧易 OKX iOS版下载"
-   class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-600 to-purple-700 hover:from-pink-500 hover:to-purple-600 hover:scale-105 transition-transform shadow-lg">
-    iOS App/苹果版
-</a>
-<a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" title="欧易App 安卓/Android 版下载平台"
+ 
+<a href="https://download.ouyi.win/okx-android_ACE529253.apk" title="欧易App 安卓/Android 版下载平台"
    class="w-full sm:w-auto min-w-[200px] min-h-[60px] px-12 py-5 text-white text-2xl font-extrabold rounded-2xl border-2 border-green-500 bg-gradient-to-r from-green-500 via-lime-400 to-emerald-600 hover:from-green-400 hover:to-emerald-500 hover:scale-110 transition-all shadow-2xl shadow-lime-400/40 animate-pulse">
     Android🔥安卓版
 </a>
-<a href="https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253" title="欧易中国注册入口"
+<a href="https://www.ouyix.co/ul/Q7tTR4?channelId=ACE529253" title="欧易中国注册入口"
    class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-700 via-red-600 to-pink-600 hover:from-pink-600 hover:to-red-500 hover:scale-105 transition-transform shadow-lg">
-    大陆用户专属入口
+    国内用户注册入口
+</a>
+ <a href="/ios/" title="欧易 OKX iOS版下载"
+   class="w-full sm:w-auto px-8 py-4 text-white text-xl font-semibold rounded-2xl border-2 border-pink-500 bg-gradient-to-r from-pink-600 to-purple-700 hover:from-pink-500 hover:to-purple-600 hover:scale-105 transition-transform shadow-lg">
+    iOS App/苹果版
 </a>
 </section>
 <section class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-16">
@@ -68,7 +69,7 @@ include __DIR__ . '/../includes/header.php';
         <p class="text-lg text-gray-300 mb-6">
             下载欧易 OKX App 安卓版，开启智能交易之旅。随时掌握币圈动态，轻松交易比特币、以太坊等主流币种，助你掌控未来数字资产！
         </p>
-        <a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" title="欧易安卓下载"
+        <a href="https://download.ouyi.win/okx-android_ACE529253.apk" title="欧易安卓下载"
            class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
             立即下载
         </a>
@@ -113,7 +114,7 @@ include __DIR__ . '/../includes/header.php';
         <p class="text-lg text-gray-300 mb-6">
             欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载欧易 Android 版 OKX App，体验专业级数字资产交易！
         </p>
-        <a href="https://sgp1.vultrobjects.com:443/appdown/okx/okx-android_ACE529253.apk" title="欧易OKX Android版 App下载"
+        <a href="https://download.ouyi.win/okx-android_ACE529253.apk" title="欧易OKX Android版 App下载"
            class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
             立即下载
         </a>
