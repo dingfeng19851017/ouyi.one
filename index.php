@@ -23,20 +23,19 @@ include "includes/header.php";
   </video>
 </section>
         <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-            <a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" title="欧意安卓App官方下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" title="欧意安卓App官方下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
                 Android<br />安卓版
             </a>
-            <a href="/ios/" title="欧易App苹果iOS版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
+            <a href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+                大陆用户<br />专属入口
+            </a>
+             <a href="/ios/" title="欧易App苹果iOS版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
                 iOS App<br />苹果版
             </a>
             <a href="/windows/" title="欧意电脑版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
                 Windows<br />电脑版
             </a>
-            <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-                大陆用户<br />专属入口
-            </a>
-            
-            <a href="https://www.oyicn.link/ul/Q7tTR4?channelId=ACE529253" title="欧易官方网站注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-yellow-400 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-500 hover:to-orange-500 hover:scale-105 transition-transform shadow-md">
+            <a href="https://www.ouyix.co/ul/Q7tTR4?channelId=ACE529253" title="欧易官方网站注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-yellow-400 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-500 hover:to-orange-500 hover:scale-105 transition-transform shadow-md">
                 欧易国际<br />全球入口
             </a>
         </section>
@@ -72,7 +71,7 @@ include "includes/header.php";
             <p class="text-lg text-gray-300 mb-6">
                 下载欧易 OKX App，开启智能交易之旅。随时掌握币圈动态，轻松交易比特币、以太坊等主流币种，助你掌控未来数字资产！
             </p>
-            <a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
@@ -117,7 +116,7 @@ include "includes/header.php";
             <p class="text-lg text-gray-300 mb-6">
                 欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载 App，体验专业级数字资产交易！
             </p>
-            <a href="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
