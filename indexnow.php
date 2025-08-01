@@ -1,137 +1,120 @@
- 
 <?php
- 
-// 配置
-$key = '71653317ec834123bf9ed9adabb4c93c';
-$host = $_SERVER['HTTP_HOST'];
-$sitemapUrl = "https://$host/sitemap.php";
+// IndexNow 配置
+$host = "okxapp.koyeb.app";
+$key = "71653317ec834123bf9ed9adabb4c93c";
+$keyLocation = "https://$host/71653317ec834123bf9ed9adabb4c93c.txt";
+$sitemapUrl = "https://$host/sitemap.xml";
 
-// 解析 sitemap.xml，返回所有链接数组
-function parseSitemap(string $url): array {
-    $content = file_get_contents($url);
-    if (!$content) return [];
+// 读取并解析 sitemap.xml
+$links = getLinksFromSitemap($sitemapUrl);
+$links = array_map('normalizeUrl', $links);
+$links = array_values(array_unique($links));
 
-    $xml = simplexml_load_string($content);
-    if (!$xml) return [];
-
-    $urls = [];
-
-    // 支持 sitemap index 和普通 sitemap
-    if (isset($xml->sitemap)) {
-        // sitemap index，递归读取所有 sitemap 链接
-        foreach ($xml->sitemap as $smap) {
-            $loc = (string)$smap->loc;
-            $urls = array_merge($urls, parseSitemap($loc));
-        }
-    } elseif (isset($xml->url)) {
-        // 普通 sitemap
-        foreach ($xml->url as $urlEntry) {
-            $loc = (string)$urlEntry->loc;
-            if ($loc) $urls[] = $loc;
-        }
-    }
-
-    return array_values(array_unique($urls));
-}
-
-// 规范链接，目录带斜杠
-function normalizeUrl(string $url): string {
-    $parsed = parse_url($url);
-    $path = $parsed['path'] ?? '/';
-    if (!preg_match('/\.[a-zA-Z0-9]+$/', $path) && substr($path, -1) !== '/') {
-        $path .= '/';
-    }
-    $normalized = $parsed['scheme'] . '://' . $parsed['host'] . $path;
-    if (!empty($parsed['query'])) $normalized .= '?' . $parsed['query'];
-    if (!empty($parsed['fragment'])) $normalized .= '#' . $parsed['fragment'];
-    return $normalized;
-}
-
-// 处理 Ajax 提交请求
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['url'])) {
-    $url = $_POST['url'];
-    $apiUrl = "https://api.indexnow.org/indexnow?url=" . urlencode($url) . "&key=$key";
-
-    $ch = curl_init($apiUrl);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    if (curl_errno($ch)) {
-        echo json_encode(['success' => false, 'error' => curl_error($ch), 'http_code' => $httpCode]);
-        exit;
-    }
-    curl_close($ch);
-
-    echo json_encode(['success' => ($httpCode === 200 || $httpCode === 202), 'http_code' => $httpCode, 'response' => $response]);
+if (empty($links)) {
+    echo "未从 sitemap 中获取到链接，请确认 sitemap 是否可访问或格式正确。";
     exit;
 }
 
-// 主页面显示，先解析 sitemap 链接
-$allLinks = parseSitemap($sitemapUrl);
-$allLinks = array_map('normalizeUrl', $allLinks);
-?>
+$postData = [
+    "host" => $host,
+    "key" => $key,
+    "keyLocation" => $keyLocation,
+    "urlList" => $links,
+];
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>IndexNow Sitemap 批量提交工具</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    #links { max-height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; }
-    button { margin-top: 15px; padding: 10px 20px; font-size: 16px; }
-    .result { margin-top: 20px; white-space: pre-wrap; background: #f9f9f9; padding: 15px; border: 1px solid #ddd; max-height: 300px; overflow-y: auto; }
-  </style>
-</head>
-<body>
+// 输出推送数据
+echo nl2br(formatPushData($postData));
 
-<h1>IndexNow Sitemap 批量提交工具</h1>
-<p>已从 <code><?= htmlspecialchars($sitemapUrl) ?></code> 解析出 <strong><?= count($allLinks) ?></strong> 个链接。</p>
+// 向 IndexNow API 提交请求
+$apiUrl = "https://api.indexnow.org/IndexNow";
+$ch = curl_init($apiUrl);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "Content-Type: application/json; charset=utf-8",
+]);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
+$response = curl_exec($ch);
+$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-<div id="links">
-  <ul>
-    <?php foreach ($allLinks as $link): ?>
-      <li><?= htmlspecialchars($link) ?></li>
-    <?php endforeach; ?>
-  </ul>
-</div>
+if (curl_errno($ch)) {
+    echo "推送失败: " . curl_error($ch);
+} else {
+    echo "\nHTTP 状态码: $httpCode\n";
+    echo "API 响应: $response";
+}
+curl_close($ch);
 
-<button id="submitBtn">开始提交</button>
+// ========= 函数部分 =========
 
-<div class="result" id="result"></div>
-
-<script>
-  const submitBtn = document.getElementById('submitBtn');
-  const resultDiv = document.getElementById('result');
-  const links = <?= json_encode($allLinks) ?>;
-
-  submitBtn.onclick = async () => {
-    submitBtn.disabled = true;
-    resultDiv.textContent = '开始提交...\n\n';
-
-    for (const url of links) {
-      try {
-        const response = await fetch('', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams({ url })
-        });
-        const data = await response.json();
-        if (data.success) {
-          resultDiv.textContent += `✅ 提交成功：${url}，HTTP状态码：${data.http_code}\n`;
-        } else {
-          resultDiv.textContent += `❌ 提交失败：${url}，错误：${data.error || '未知'}，HTTP状态码：${data.http_code}\n`;
-        }
-      } catch (err) {
-        resultDiv.textContent += `❌ 提交异常：${url}，错误：${err.message}\n`;
-      }
+// 读取 sitemap.xml 并提取 <loc> 链接
+function getLinksFromSitemap(string $url): array {
+    $content = @file_get_contents($url);
+    if (!$content) {
+        echo "无法读取 sitemap: $url\n";
+        return [];
     }
-    resultDiv.textContent += '\n全部提交完成！';
-    submitBtn.disabled = false;
-  };
-</script>
 
-</body>
-</html>
+    $xml = @simplexml_load_string($content);
+    if (!$xml || !isset($xml->url)) {
+        echo "sitemap 格式错误或无效。\n";
+        return [];
+    }
+
+    $links = [];
+    foreach ($xml->url as $entry) {
+        if (!empty($entry->loc)) {
+            $links[] = (string)$entry->loc;
+        }
+    }
+    return $links;
+}
+
+// 标准化 URL（加尾斜杠）
+function normalizeUrl(string $url): string {
+    $parsed = parse_url($url);
+    $path = $parsed['path'] ?? '/';
+
+    // 如果路径不含扩展名且不以斜杠结尾，则加斜杠
+    if (!preg_match('/\.[a-zA-Z0-9]+$/', $path) && substr($path, -1) !== '/') {
+        $path .= '/';
+    }
+
+    $normalized = $parsed['scheme'] . '://' . $parsed['host'] . $path;
+
+    if (!empty($parsed['query'])) {
+        $normalized .= '?' . $parsed['query'];
+    }
+    if (!empty($parsed['fragment'])) {
+        $normalized .= '#' . $parsed['fragment'];
+    }
+
+    return $normalized;
+}
+
+// 格式化推送数据输出
+function formatPushData($data) {
+    $output = "推送数据:\n";
+    $output .= "Host: " . ($data["host"] ?? "未定义") . "\n";
+
+    if (!empty($data["key"])) {
+        $key = $data["key"];
+        $keyMasked = substr($key, 0, 2) . str_repeat("*", strlen($key) - 4) . substr($key, -2);
+        $output .= "Key: " . $keyMasked . "\n";
+    } else {
+        $output .= "Key: 未定义\n";
+    }
+
+    $output .= "Key Location: 隐藏\n";
+    $output .= "URL List:\n";
+    if (!empty($data["urlList"])) {
+        foreach ($data["urlList"] as $url) {
+            $output .= "$url\n";
+        }
+    } else {
+        $output .= "  没有链接被推送。\n";
+    }
+
+    return $output;
+}
+
