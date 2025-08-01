@@ -12,16 +12,16 @@ include "includes/header.php";
             <p class="text-xl text-gray-300 mb-2">欧易 OKX 是全球领先的<br />数字资产交易平台,本站支持下载欧易App安卓/Android版<br />苹果iOS版/电脑PC版多端同步,立即下载 OKX欧易交易所App客户端,随时掌握市场动态进行数字资产交易.</p>
         </section>
                     <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-            <a href="/jump/a.php" title="欧意安卓App官方下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+            <a href="/jump/a.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
                安卓下载 (国内线路)
             </a>
-            <a href="/jump/b.php" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+            <a href="/jump/b.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
                安卓下载 (备用线路)
             </a>
-             <a href="/jump/c.php" title="欧易App苹果iOS版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
+             <a href="/jump/c.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
                电脑苹果 (注册后下载)
             </a>
-            <a href="/jump/d.php" title="欧意电脑版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
+            <a href="/jump/d.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
                国内专属 (注册入口)
             </a>
         </section>
