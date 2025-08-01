@@ -1,4 +1,4 @@
 <?php
-header("Location: https://www.ouchyi.support/zh-hans/join?channelId=ACE529253", true, 302);
+header("Location: https://www.ouydl.me/ul/Q7tTR4?channelId=ACE529253", true, 302);
 exit;
 ?>
