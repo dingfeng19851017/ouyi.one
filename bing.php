@@ -3,8 +3,8 @@
 // indexnow_sitemap_submit.php - 可人工编辑网址 + 自动读取 sitemap
 
 // 配置
-$key = '7bbdb769cbb340c8ba31582ae5f012a9';
-$host = "okxapp.koyeb.app";
+$key = '71653317ec834123bf9ed9adabb4c93c';
+$host = $_SERVER['HTTP_HOST'];71653317ec834123bf9ed9adabb4c93c
 $sitemapUrl = "https://$host/sitemap.xml";
 
 // 读取 sitemap 并解析链接
