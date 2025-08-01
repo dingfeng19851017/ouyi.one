@@ -1,6 +1,6 @@
 <?php
 // IndexNow 配置
-$host = "okxapp.koyeb.app";
+$host = $_SERVER['HTTP_HOST'];
 $key = "71653317ec834123bf9ed9adabb4c93c";
 $keyLocation = "https://$host/71653317ec834123bf9ed9adabb4c93c.txt";
 $sitemapUrl = "https://$host/sitemap.xml";
