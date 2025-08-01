@@ -1,44 +1,42 @@
 <?php
 $protocol = "https://";
 $domain = $protocol . $_SERVER['HTTP_HOST'];
-$page_title = "欧易APP下载 | 安卓/iOS版 | 欧易OKX App官方下载入口";
-$page_description = "欧易OKX APP官方下载平台，提供苹果iOS下载、Android下载，安全稳定，支持多端同步。访问欧易官网APP下载中心，获取最新欧易官方下载入口，尽享专业数字资产交易体验。";
-$page_keywords = "欧易 OKX APP下载, 欧易iOS下载, 欧易安卓下载, 欧易下载, 欧易官网APP下载, 欧易App官方下载, 欧易官方下载入口, 欧易官方网站下载中心, 欧易中文官网, 欧易官网入口, 欧易官方网站";
+$page_title = "欧易下载 | OKX APP下载 | 苹果iOS下载 | 安卓Android下载 | 欧易官方正式版下载中心";
+$page_description = "欧易官方App下载平台提供苹果iOS版下载、OKX App 安卓版在线免费App下载，安全稳定，支持多端同步。访问欧易官方APP下载中心，获取最新欧易交易所官方客户端安装包";
+$page_keywords = "欧易下载, 欧易iOS下载, 欧易安卓下载, 欧易官方APP下载, 欧易App官方下载, 欧易下载中心, 欧易官网, 欧易官网入口, OKX App";
 include "includes/header.php";
 ?>
 <main class="max-w-6xl mx-auto px-4 py-8 text-center">
-<section class="mb-6">
+<section class="mb-2">
             <h1 class="text-4xl font-bold mb-4">欧易下载</h1>
-            <p class="text-xl text-gray-300 mb-8">欧易 OKX 是全球领先的<br />数字资产交易平台,本站支持下载欧易App安卓/Android版<br />苹果iOS版/电脑PC版多端同步,立即下载 OKX欧易交易所App客户端,随时掌握市场动态进行数字资产交易.</p>
+            <p class="text-xl text-gray-300 mb-2">欧易 OKX 是全球领先的<br />数字资产交易平台,本站支持下载欧易App安卓/Android版<br />苹果iOS版/电脑PC版多端同步,立即下载 OKX欧易交易所App客户端,随时掌握市场动态进行数字资产交易.</p>
+        </section>
+                    <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
+            <a href="/jump/a.php" title="欧意安卓App官方下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+               安卓下载 (国内线路)
+            </a>
+            <a href="/jump/b.php" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
+               安卓下载 (备用线路)
+            </a>
+             <a href="/jump/c.php" title="欧易App苹果iOS版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
+               电脑苹果 (注册后下载)
+            </a>
+            <a href="/jump/d.php" title="欧意电脑版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
+               国内专属 (注册入口)
+            </a>
         </section>
  <section class="my-4" aria-label="欧易网页版入口">
   <h2 class="sr-only">欧易下载入口</h2>
   <video id="web3Video" class="w-full mx-auto rounded-xl shadow-xl"
          muted loop playsinline preload="none"
          poster="/img/web3.jpg">
-    <source data-src="https://pub-af29356367944bd28207bd00fd8ad60d.r2.dev/web3.mp4" type="video/mp4" />
+ 
     <track src="subtitles.vtt" kind="subtitles" srclang="zh" label="中文字幕" default>
     您的浏览器不支持 HTML5 视频，请访问
     <a href="/" title="欧易App官方下载平台">欧易官网下载入口</a> 查看。
   </video>
 </section>
-        <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" title="欧意安卓App官方下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-                Android<br />安卓版
-            </a>
-            <a href="https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253" title="欧易中国注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-                大陆用户<br />专属入口
-            </a>
-             <a href="/ios/" title="欧易App苹果iOS版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-                iOS App<br />苹果版
-            </a>
-            <a href="/windows/" title="欧意电脑版下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-                Windows<br />电脑版
-            </a>
-            <a href="https://www.ouyix.co/ul/Q7tTR4?channelId=ACE529253" title="欧易官方网站注册入口" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-yellow-400 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-500 hover:to-orange-500 hover:scale-105 transition-transform shadow-md">
-                欧易国际<br />全球入口
-            </a>
-        </section>
+ 
 
 
     <section class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8">
@@ -71,7 +69,7 @@ include "includes/header.php";
             <p class="text-lg text-gray-300 mb-6">
                 下载欧易 OKX App，开启智能交易之旅。随时掌握币圈动态，轻松交易比特币、以太坊等主流币种，助你掌控未来数字资产！
             </p>
-            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="/jump/a.php" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
@@ -116,7 +114,7 @@ include "includes/header.php";
             <p class="text-lg text-gray-300 mb-6">
                 欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载 App，体验专业级数字资产交易！
             </p>
-            <a href="https://download.ouyi.win/okx-android_ACE529253.apk" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="/jump/a.php" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
