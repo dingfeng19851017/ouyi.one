@@ -19,16 +19,16 @@
         function setInstallLink() {
             const ua = navigator.userAgent.toLowerCase();
             if (ua.includes('windows')) {
-                installLink.href = "https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253";
+                installLink.href = "/jump/c.php";
                 installLink.textContent = "立即注册🎁赢取奖励";
             } else if (ua.includes('mac')) {
-                installLink.href = "https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253";
+                installLink.href = "/jump/c.php";
                 installLink.textContent = "立即注册🎁赢取奖励";
             } else if (ua.includes('android')) {
-                installLink.href = "https://download.ouyi.win/okx-android_ACE529253.apk";
+                installLink.href = "/jump/a.php";
                 installLink.textContent = "立即下载🎁赢取奖励";
             } else if (ua.includes('iphone') || ua.includes('ipad') || ua.includes('ipod')) {
-                installLink.href = "https://www.ouxyi.me/ul/Q7tTR4?channelId=ACE529253";
+                installLink.href = "/jump/c.php";
                 installLink.textContent = "立即注册🎁赢取奖励";
             } else {
                 installLink.classList.add('hidden');
