@@ -1,7 +1,7 @@
  <?php
 $protocol = "https://";
 $domain = $protocol . $_SERVER['HTTP_HOST'];
-$page_title = "欧易OKX苹果版App官方下载 | iOS官方最新版下载入口";
+$page_title = "欧易iOS下载 | 苹果版欧易App下载中心 | 欧易 OKX App 官方下载入口";
 $page_description = "欧易OKX苹果版App官方下载入口，支持iPhone与iPad设备，适配最新欧易OKX App iOS版下载，轻松安装欧意交易所官方App。";
 $page_keywords = "欧易iOS下载, 欧易苹果版App, OKX iOS版下载, 欧意iOS官方App, 欧易苹果手机下载, 欧易交易所iOS, OKX苹果版安装, 欧易官方下载iOS最新版, 欧意交易平台苹果版";
 include "../includes/header.php";
