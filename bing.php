@@ -4,7 +4,7 @@
 
 // 配置
 $key = '71653317ec834123bf9ed9adabb4c93c';
-$host = $_SERVER['HTTP_HOST'];71653317ec834123bf9ed9adabb4c93c
+$host = $_SERVER['HTTP_HOST'];
 $sitemapUrl = "https://$host/sitemap.xml";
 
 // 读取 sitemap 并解析链接
