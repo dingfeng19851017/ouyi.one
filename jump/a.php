@@ -1,7 +1,7 @@
 <?php
 // 三个下载链接配置
-$primaryUrl = 'https://download.ouyi.win/okx-android_ACE529253.apk'; // 主用下载
-$backupUrl1 = 'https://static.glgle.cn/upgradeapp/okx-android_ACE529253.apk'; // 备用下载1
+$primaryUrl = 'https://static.glgle.cn/upgradeapp/okx-android_ACE529253.apk'; // 主用下载
+$backupUrl1 = 'https://download.ouyi.win/okx-android_ACE529253.apk'; // 备用下载1
 $backupUrl2 = 'https://ouyi.win/okx-android_ACE529253.apk'; // 备用下载2
 
 // 加密处理
