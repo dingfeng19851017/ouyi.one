@@ -1,5 +1,5 @@
 <?php
-$primaryUrl = 'https://www.ouydl.me/ul/Q7tTR4?channelId=ACE529253'; // 主用下载
+$primaryUrl = 'https://www.ouchyi.support/zh-hans/join?channelId=ACE529253'; // 主用下载
 $backupUrl1 = 'https://www.ouchyi.co/zh-hans/join?shortCode=Q7tTR4&channelId=ACE529253'; // 备用下载1
 $backupUrl2 = 'https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253'; // 备用下载2
 
