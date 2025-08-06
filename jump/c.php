@@ -177,7 +177,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
     
     <p class="notice">如果主通道无法进入，请尝试备用通道</p>
         <div class="btn-group" style="margin-top: 2rem;">
-    <a href="/jump/android.php" class="btn btn-primary" style="text-decoration: none;" target="_blank">
+    <a href="/jump/a.php" class="btn btn-primary" style="text-decoration: none;" target="_blank">
       立即下载欧易(安卓版)
     </a>
     <a href="/" class="btn btn-secondary" style="text-decoration: none;">
