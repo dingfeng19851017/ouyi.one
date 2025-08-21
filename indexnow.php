@@ -3,7 +3,7 @@
 $host = $_SERVER['HTTP_HOST'];
 $key = "71653317ec834123bf9ed9adabb4c93c";
 $keyLocation = "https://$host/71653317ec834123bf9ed9adabb4c93c.txt";
-$sitemapUrl = "https://$host/sitemap.xml";
+$sitemapUrl = "https://$host/sitemap.php";
 
 // 读取并解析 sitemap.xml
 $links = getLinksFromSitemap($sitemapUrl);
