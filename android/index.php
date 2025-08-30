@@ -59,7 +59,7 @@ include __DIR__ . '/../includes/download.php';
         <p class="text-lg text-gray-300 mb-6">
             下载欧易 OKX App 安卓版，开启智能交易之旅。随时掌握币圈动态，轻松交易比特币、以太坊等主流币种，助你掌控未来数字资产！
         </p>
-        <a href="/jump/a.php" title="欧易安卓下载"
+        <a href="/" title="欧易安卓下载"
            class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
             立即下载
         </a>
@@ -85,7 +85,7 @@ include __DIR__ . '/../includes/download.php';
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">丰富品种</h3>
-                <p>欧易App支持多种主流数字货币交易，满足多样化投资，超精心。</p>
+                <p>欧易App支持多种主流数字交易，满足多样化投资，超精心。</p>
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">高效稳定</h3>
@@ -102,9 +102,9 @@ include __DIR__ . '/../includes/download.php';
     <div class="text-white order-2 md:order-1">
         <h2 class="text-4xl font-extrabold mb-4 leading-snug">欧易 App 安卓版<br /><span class="text-cyan-400">智能掌控未来</span></h2>
         <p class="text-lg text-gray-300 mb-6">
-            欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载欧易 Android 版 OKX App，体验专业级数字资产交易！
+            欧易 OKX 支持多种主种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载欧易 Android 版 OKX App！
         </p>
-        <a href="/jump/a.php" title="欧易OKX Android版 App下载"
+        <a href="/" title="欧易OKX Android版 App下载"
            class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
             立即下载
         </a>
