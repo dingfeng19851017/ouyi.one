@@ -1,7 +1,7 @@
  <?php
 $protocol = "https://";
 $domain = $protocol . $_SERVER['HTTP_HOST'];
-$page_title = "欧易安卓版 | OKX APP下载 | 苹果iOS下载 | 欧易Android安卓下载中心";
+$page_title = "欧易下载 | OKX APP下载 | 苹果iOS下载 | 欧易Android安卓下载中心";
 $page_description = "欧易OKX安卓下载入口，获取官方最新版App安装包，快速注册交易账户，随时随地安全掌握数字货币行情。欧易OKX交易所安卓手机专属版本，适配国内外，操作流畅，极速稳定，支持中文服务。";
 $page_keywords = "欧易安卓App下载, OKX安卓安装包, 欧易交易所Android版, 欧易App官方下载, 欧意OKX安卓版, 欧易OKX官网安卓下载, 欧意安卓手机版, 欧易官网安装安卓, 欧意官方下载App";
 include __DIR__ . '/../includes/header.php';
@@ -11,20 +11,10 @@ include __DIR__ . '/../includes/header.php';
             <h1 class="text-4xl font-bold mb-4">欧易 OKX 安卓版</h1>
             <p class="text-xl text-gray-300 mb-2">欧易OKX安卓App是欧意交易所官方推出的移动客户端<br/>支持Android系统最新版，免谷歌全面兼容华为、小米等主流国产手机。<br/>作为全球领先数字资产平台，欧易提供丰富的币种交易、快捷买币、理财等服务，<br/>立即下载欧易官方App即刻开启高效、安全的区块链资产管理体验。</p>
         </section>
-                         <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-            <a href="/jump/a.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-               安卓下载 (国内线路)
-            </a>
-            <a href="/jump/b.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-               安卓下载 (备用线路)
-            </a>
-             <a href="/jump/c.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-               电脑苹果 (注册后下载)
-            </a>
-            <a href="/jump/d.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-               国内专属 (注册入口)
-            </a>
-        </section>
+<?php
+// Download Page
+include __DIR__ . '/../includes/download.php';
+?>
           <section class="my-4" aria-label="欧易安卓App下载入口">
             <h2 class="sr-only">欧易App安卓版下载入口</h2>
   <video id="web3Video" class="w-full mx-auto rounded-xl shadow-xl"
