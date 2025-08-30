@@ -9,7 +9,7 @@ include "includes/header.php";
 <main class="max-w-6xl mx-auto px-4 py-8 text-center">
 <section class="mb-2">
             <h1 class="text-4xl font-bold mb-4">欧易下载</h1>
-            <p class="text-xl text-gray-300 mb-2">欧易 OKX 是全球领先的<br />数字资产交易平台,本站支持下载欧易App安卓/Android版<br />苹果iOS版/电脑PC版多端同步,立即下载 OKX欧易交易所App客户端,随时掌握市场动态进行数字资产交易.</p>
+            <p class="text-xl text-gray-300 mb-2">欧易OKX本站支持下载欧易App安卓/Android版苹果iOS版/电脑PC版多端同步,立即下载 OKX欧易交易所App.</p>
         </section>
 <?php
 // Download Page
@@ -38,7 +38,7 @@ include __DIR__ . '/includes/download.php';
 
         <article class="bg-white/5 border border-blue-400/20 backdrop-blur-md rounded-2xl p-6 text-center shadow-xl hover:shadow-blue-500/30 transition-shadow">
             <h3 class="text-xl font-bold text-blue-400 mb-2">极速交易</h3>
-            <p class="text-gray-300">全球领先撮合引擎，订单秒级成交，交易畅快无阻。</p>
+            <p class="text-gray-300">全球领先撮合引擎，订单秒级成交，畅快无阻。</p>
         </article>
 
         <article class="bg-white/5 border border-purple-400/20 backdrop-blur-md rounded-2xl p-6 text-center shadow-xl hover:shadow-purple-500/30 transition-shadow">
@@ -57,9 +57,9 @@ include __DIR__ . '/includes/download.php';
         <div class="text-white">
             <h2 class="text-4xl font-extrabold mb-4 leading-snug">欧易 App<br /><span class="text-cyan-400">创造无限可能</span></h2>
             <p class="text-lg text-gray-300 mb-6">
-                下载欧易 OKX App，开启智能交易之旅。随时掌握币圈动态，轻松交易比特币、以太坊等主流币种，助你掌控未来数字资产！
+                下载欧易 OKX App，开启智能交易之旅。随时掌握币圈动态，轻松交易主流币种，助你掌控未来数字资产！
             </p>
-            <a href="/jump/a.php" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="/" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
@@ -84,7 +84,7 @@ include __DIR__ . '/includes/download.php';
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">丰富品种</h3>
-                <p>欧易App支持多种主流数字货币交易，满足多样化投资，超精心。</p>
+                <p>欧易App支持多种主流数字交易，满足多样化投资，超精心。</p>
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">高效稳定</h3>
@@ -102,9 +102,9 @@ include __DIR__ . '/includes/download.php';
         <div class="text-white order-2 md:order-1">
             <h2 class="text-4xl font-extrabold mb-4 leading-snug">欧易 App<br /><span class="text-cyan-400">智能掌控未来</span></h2>
             <p class="text-lg text-gray-300 mb-6">
-                欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载 App，体验专业级数字资产交易！
+                欧易 OKX 支持多种主流币种，提供极速撮合与强大风控机制，满足专业与新手用户需求。立即下载 App，体验专业级！
             </p>
-            <a href="/jump/a.php" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
+            <a href="/" class="inline-block px-8 py-3 text-white font-semibold text-lg rounded-xl border border-cyan-400 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 hover:scale-105 transition-transform shadow-lg">
                 立即下载
             </a>
         </div>
