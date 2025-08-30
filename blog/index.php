@@ -17,9 +17,9 @@ include "../includes/header.php";
   <!-- 下载按钮 -->
   <div class="bg-gradient-to-r from-green-700 to-green-500 rounded-xl p-6 text-white text-center shadow-md mt-4">
     <h2 class="text-2xl font-bold mb-4">🚀 官方下载入口</h2>
-    <a href="/jump/a.php" class="inline-block bg-white text-yellow-300 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition">
-      点击下载欧易安卓版本
-    </a>
+<section class="flex flex-col sm:flex-row justify-center items-center gap-4 p-4 rounded-lg shadow-md mx-auto max-w-md">
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/navbtn.php'; ?>
+</section>
     <p class="mt-2 text-sm text-green-100">来自欧易官方服务器，推荐优先使用</p>
   </div>
 
