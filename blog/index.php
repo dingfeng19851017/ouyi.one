@@ -27,7 +27,7 @@ include "../includes/header.php";
   <h2 class="text-2xl font-bold text-green-400">📱 欧易App安卓版本下载</h2>
   <p>大家可通过此处列出的下载链接直接下载到手机进行安装，所有链接来自欧易 OKX 官方提供，敬请放心安全下载：</p>
 <div class="flex flex-col sm:flex-row justify-center items-center gap-4 my-8">
-  <a href="/jump/a.php" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
+  <a href="/android" target="_blank" class="inline-block bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-500 transition shadow-lg text-lg">
     ⚡ 立即下载欧易安卓版本
   </a>
   <a href="/blog/ios/" target="_blank" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-500 transition shadow-lg text-lg">
@@ -38,8 +38,8 @@ include "../includes/header.php";
 
   <h3 class="text-xl font-semibold text-white mt-6">✅备用下载地址</h3>
   <ul class="list-disc list-inside text-gray-300">
-    <li><strong>安卓版下载备用①</strong>：✅<a href="/jump/a.php" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
-    <li><strong>安卓版下载备用②</strong>：✅<a href="/jump/c.php" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
+    <li><strong>安卓版下载备用①</strong>：✅<a href="/" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
+    <li><strong>安卓版下载备用②</strong>：✅<a href="/" class="text-green-400 hover:underline" target="_blank">点击立即下载</a></li>
  
   </ul>
 <p class="font-semibold text-yellow-300">
@@ -48,8 +48,8 @@ include "../includes/header.php";
 <h2 id="ouyirukou" class="text-2xl font-bold text-green-400">💻 欧易官方注册入口</h2>
 <p class="text-gray-300">如您不方便使用手机，也可以通过以下任意官方网页版地址进行注册，全部均为欧易官方入口，立即注册既有机会赢取高达 100 USDT 盲盒，欧易对用户资产持有 1:1 储备，新用户专享前3天赚取最高30%的年收益率</p>
 <ul class="list-disc list-inside text-gray-300 space-y-1">
-  <li><a href="/jump/c.php" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
-  <li><a href="/jump/d.php" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册🎁赢取奖励</a></li>
+  <li><a href="/" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册</a></li>
+  <li><a href="/" target="_blank" class="text-blue-400 hover:underline font-semibold">立即注册</a></li>
  
 </ul>
   <h2 class="text-2xl font-bold ">❓安安卓手机下载后 <span class="text-red-400">无法安装</span> 怎么办？</h2>
