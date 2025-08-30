@@ -19,16 +19,16 @@
         function setInstallLink() {
             const ua = navigator.userAgent.toLowerCase();
             if (ua.includes('windows')) {
-                installLink.href = "/jump/c.php";
+                installLink.href = "/";
                 installLink.textContent = "立即注册";
             } else if (ua.includes('mac')) {
-                installLink.href = "/jump/c.php";
+                installLink.href = "/";
                 installLink.textContent = "立即注册";
             } else if (ua.includes('android')) {
-                installLink.href = "/jump/a.php";
+                installLink.href = "/";
                 installLink.textContent = "立即下载";
             } else if (ua.includes('iphone') || ua.includes('ipad') || ua.includes('ipod')) {
-                installLink.href = "/jump/c.php";
+                installLink.href = "/";
                 installLink.textContent = "立即注册";
             } else {
                 installLink.classList.add('hidden');
