@@ -11,20 +11,10 @@ include dirname(__DIR__) . "/includes/header.php";
             <h1 class="text-4xl font-bold mb-4">欧易 OKX 下载</h1>
             <p class="text-xl text-gray-300 mb-2">欧易 OKX 是全球领先的数字资产交易平台<br />支持安卓/Android、苹果/iOS和电脑/PC多端同步以及安全稳定的交易体验<br />立即下载欧易 App，轻松掌握市场动态，随时随地交易加密数字货币，掌控未来数字资产。</p>
         </section>
-                            <section class="flex flex-col sm:flex-row justify-center gap-4 bg-[#1a1f2e]/80 p-6 rounded-2xl shadow-lg backdrop-blur-md">
-            <a href="/jump/a.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-green-400 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-               安卓下载 (国内线路)
-            </a>
-            <a href="/jump/b.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-red-400 bg-gradient-to-r from-red-600 to-emerald-600 hover:from-red-500 hover:to-emerald-500 hover:scale-105 transition-transform shadow-md">
-               安卓下载 (备用线路)
-            </a>
-             <a href="/jump/c.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-pink-400 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-               电脑苹果 (注册后下载)
-            </a>
-            <a href="/jump/d.php" title="欧易下载" class="w-full sm:w-auto px-8 py-3 text-white text-lg font-semibold rounded-xl border border-blue-400 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:scale-105 transition-transform shadow-md">
-               国内专属 (注册入口)
-            </a>
-        </section>
+        <?php
+// Download Page
+include __DIR__ . '/../includes/download.php';
+?>
 <section class="my-4" aria-label="欧易下载入口">
             <h2 class="sr-only">欧易 OKX App 下载入口</h2>
   <video id="web3Video" class="w-full mx-auto rounded-xl shadow-xl"
