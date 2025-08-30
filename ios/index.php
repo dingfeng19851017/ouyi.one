@@ -9,7 +9,7 @@ include "../includes/header.php";
     <main class="max-w-6xl mx-auto px-4 py-8 text-center">
         <section class="mb-2">
             <h1 class="text-4xl font-bold mb-4">欧易 iOS 下载</h1>
-            <p class="text-xl text-gray-300 mb-2">立即下载苹果iOS版欧易App，随时随地掌握数字市场动态<br />轻松进行数字资产交易与管理。欧易官方iOS最新版本安全稳定，适配iPhone与iPad全系列设备<br /> 欧意交易所为您提供实时行情、快捷买币、资产分析、策略工具等全方位功能，是每一位数字货币投资者的首选工具。</p>
+            <p class="text-xl text-gray-300 mb-2">立即下载苹果iOS版欧易App，欧易官方iOS最新版本安全稳定，适配iPhone与iPad全系列设备,欧意交易所为您提供实时行情、资产分析、策略工具等全方位功能。</p>
         </section>
 <?php
 // Download Page
@@ -87,7 +87,7 @@ include __DIR__ . '/../includes/download.php';
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">丰富品种</h3>
-                <p>欧易App支持多种主流数字货币交易，满足多样化投资，超精心。</p>
+                <p>欧易App支持多种主流数字交易，满足多样化投资，超精心。</p>
             </div>
             <div class="flex flex-col space-y-2 bg-gray-800 p-6 rounded-lg">
                 <h3 class="text-xl font-semibold">高效稳定</h3>
