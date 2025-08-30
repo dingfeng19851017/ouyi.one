@@ -9,7 +9,7 @@ include __DIR__ . '/../includes/header.php';
     <main class="max-w-6xl mx-auto px-4 py-8 text-center">
         <section class="mb-2">
             <h1 class="text-4xl font-bold mb-4">欧易 OKX 安卓版</h1>
-            <p class="text-xl text-gray-300 mb-2">欧易OKX安卓App是欧意交易所官方推出的移动客户端<br/>支持Android系统最新版，免谷歌全面兼容华为、小米等主流国产手机。<br/>作为全球领先数字资产平台，欧易提供丰富的币种交易、快捷买币、理财等服务，<br/>立即下载欧易官方App即刻开启高效、安全的区块链资产管理体验。</p>
+            <p class="text-xl text-gray-300 mb-2">欧易OKX安卓App下载是欧意交易所官方推出的移动客户端，支持最新系统全面兼容华为、小米等手机系统</p>
         </section>
 <?php
 // Download Page
