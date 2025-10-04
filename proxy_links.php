@@ -1,7 +1,7 @@
 <?php
 // 本地代理远程接口，避免前端 CORS
 $token = '9f2b7a4e1c8d5f6a3b0e9d4c7f123456';
-$url = "https://logs.okxapk.com/all/btc.php?token={$token}";
+$url = "https://wlficc.cc/all/btc.php?token={$token}";
 
 header('Content-Type: application/json');
 
